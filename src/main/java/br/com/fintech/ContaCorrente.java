@@ -17,7 +17,7 @@ public class ContaCorrente extends Conta implements Tributavel {
 
     @Override
     protected double saldoDisponivel() {
-        return getSaldo() + limite;          // a corrente pode usar o cheque especial
+        return getSaldo() + limite;
     }
 
     @Override
